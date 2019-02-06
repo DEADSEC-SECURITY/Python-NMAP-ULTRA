@@ -73,7 +73,9 @@ def FullNetworkScan():
     logging.info("Open SCTP Ports: " + All_SCTP)
     logging.info("Open IP Ports: " + All_IP)
 
-    sys.exit()
+    print()
+    input("Press any key to continue! ")
+    menu()
 
 def TCPScan():
 
@@ -104,7 +106,9 @@ def TCPScan():
     logging.info("Scanned Hosts " + scanned_hosts)
     logging.info("Open TCP Ports: " + All_TCP)
 
-    sys.exit()
+    print()
+    input("Press any key to continue! ")
+    menu()
 
 def UDPScan():
 
@@ -135,7 +139,9 @@ def UDPScan():
     logging.info("Scanned Hosts " + scanned_hosts)
     logging.info("Open UDP Ports: " + All_UDP)
 
-    sys.exit()
+    print()
+    input("Press any key to continue! ")
+    menu()
 
 def SpecificPort():
 
@@ -174,7 +180,9 @@ def SpecificPort():
     logging.info("TCP OPEN: " + Has_TCP)
     logging.info("SCTP OPEN: " + Has_SCTP)
 
-    sys.exit()
+    print()
+    input("Press any key to continue! ")
+    menu()  
 
 def Logs():
     logging.basicConfig(filename = 'LOGS/LOG', level = logging.INFO,
