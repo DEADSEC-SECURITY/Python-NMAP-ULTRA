@@ -1,4 +1,4 @@
-#DONATIONS
+﻿#DONATIONS
 
 If you enjoyed the script and found it useful, you can support the project making a donation. Sending a fraction of any of these cryptocurrencies. Any amount, not matter how small (1, 2, 5 $/€) is welcome.
 
@@ -33,3 +33,4 @@ Console commands:
 $ sudo pip3 install python-nmap
 
 $ sudo python3 scanner.py
+
