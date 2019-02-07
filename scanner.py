@@ -1,6 +1,6 @@
 #-----------Welcome to DeAdSeC Python Nmap Scanner----------#
 #-------Made By DeAdSeC-------#
-#---Version 2.1.0---#
+#---Version 2.1.1---#
 
 import nmap
 import os
@@ -182,7 +182,7 @@ def SpecificPort():
 
     print()
     input("Press any key to continue! ")
-    menu()  
+    menu()
 
 def Logs():
     logging.basicConfig(filename = 'LOGS/LOG', level = logging.INFO,
@@ -217,7 +217,7 @@ def menu():
     print("----------------------------------------------")
     print("What type of scan would you like to run?")
     print("1) Full Network Scan")
-    print("2) TPC Scan")
+    print("2) TCP Scan")
     print("3) UDP Scan")
     print("4) Scan for a specified port")
     print("------------")
