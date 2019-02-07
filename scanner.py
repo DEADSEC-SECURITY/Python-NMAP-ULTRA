@@ -1,6 +1,6 @@
 #-----------Welcome to DeAdSeC Python Nmap Scanner----------#
 #-------Made By DeAdSeC-------#
-#---Version 2.1.1---#
+#---Version 2.2.2---#
 
 import nmap
 import os
